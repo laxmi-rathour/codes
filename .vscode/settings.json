@@ -1,0 +1,7 @@
+{
+    "js/ts.suggest.objectLiteralMethodSnippets.enabled": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.inlineSuggest.edits.renderSideBySide": "never",
+    "editor.inlineSuggest.enabled": false,
+    "editor.suggest.selectionMode": "never"
+}
