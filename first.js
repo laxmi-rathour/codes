@@ -71,5 +71,12 @@ console.log(`Solution is: ${solution}`);
 
 /*let username;   // this is the first way 
 username = window.prompt("what's your username?");
-console.log(username);*
+console.log(username);*/
+
+let username;
+
+   document.getElementById("mySubmit").onclick = function(){
+    username = document.getElementById("myText").value;
+    document.getElementById("H1").textContent= `Hello  ${username}`
+   }
 
