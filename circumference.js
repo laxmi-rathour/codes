@@ -8,6 +8,8 @@ document.getElementById("mySubmit").onclick = function(){
      radius = Number(radius);
     circumference = 2 * PI * radius;
 
-    document.getElementById("myH3").textContent =  `circumference of the circle: ${circumference}`;
+    document.getElementBy
+    
+    Id("myH3").textContent =  `circumference of the circle: ${circumference}`;
 }
 
