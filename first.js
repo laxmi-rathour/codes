@@ -6,7 +6,7 @@
 
 
 
-let age = 25;
+/*let age = 25;
 let name;
 name= "manvi"
 
@@ -22,6 +22,8 @@ let forsale = true;
 
 console.log(typeof online);
 console.log(`Is is car for sale: ${forsale}`);
+*/
+
 
 
 // arithmetic operators = operands ( values variables , etc.)

@@ -10,6 +10,4 @@ document.getElementById("mySubmit").onclick = function(){
 
     document.getElementBy
     
-    Id("myH3").textContent =  `circumference of the circle: ${circumference}`;
-}
-
+    Id("myH3").textContent =  circumference of the circle: ${circumference})

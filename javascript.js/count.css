@@ -1,0 +1,21 @@
+#countiLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Halvetica;
+}
+#btnContainer{
+    text-align: center;
+}
+.buttons{
+    padding:10px 20px;
+    font-size: 1.5em;
+    color:rgb(224, 217, 217);
+    background-color:rgb(64, 192, 224);
+    border-radius:5px;
+    cursor:pointer;
+    transition:background-color O.25s;
+}
+.buttons:hover{
+    background-color:rgb(47, 177, 194);
+}
