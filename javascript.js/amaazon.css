@@ -266,3 +266,7 @@ ul a{
     padding-top: 5px;
    
 }
+
+.box:hover {
+    border: 2px solid black;
+}
