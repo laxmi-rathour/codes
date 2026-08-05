@@ -2,6 +2,9 @@
 <html>
     <head>
         <title>Quize App</title>
+        <!-- Linking Google Fonts for Icons -->
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link rel="stylesheet" href="Quiz-App.css">
     </head>
 
@@ -33,6 +36,49 @@
 
             <button class="start-quiz-btn">Start Quiz</button>
         </div>
+
+        <!-- Quiz Container -->
+         <div class="quiz-container">
+            <header class="quiz-header">
+                <h2 class="quiz-title">Quiz Application</h2>
+                <div class="quiz-timer">
+                    <span class="material-symbols-outlined">
+                        timer
+                    </span>
+
+                    <p class="time-duration">15s</p>
+                    </div>
+            </header>
+            
+            <div class="quiz-content">
+                <h1 class="quiz-question">In JavaScript, how do you creat a function?</h1>
+                <ul class="answer-options">
+                    <li>
+                        <p> <class="answer-option">create function myFuction() </p>
+                    </li>
+                    <li>
+                        <p> <class="answer-option">function myFunction() </p>
+                    </li>
+                    <li>
+                        <p> <class="answer-option">def function myFunction()</p>
+                    </li>
+                    <li>
+                        <p> <class="answer-option">func myFunction() </p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="quiz-footer">
+                <p class="question-status"><b>2</b> of <b>10</b> Question</p>
+                <button class="next-question-btn">
+                    Next
+                    <span class="material-symbols-outlined">
+                        arrow_right_alt
+                    </span>
+
+                </button>
+            </div>
+         </div>
         
 
     </body>

@@ -20,6 +20,7 @@ body{
 }
 
 .config-container {
+    display: none;
     width:415;
     padding: 25px;
     text-align: center;
@@ -79,4 +80,16 @@ body{
 
 .question-options button {
     flex: 1 1 10%;
+}
+
+.config-container .start-quiz-btn {
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   margin-top: 30px;
+   font-weight: 500;
+   background: #5145BA;
+   padding: 1rem;
+   font-size: 1rem;
+   border-radius: 6px;
 }
