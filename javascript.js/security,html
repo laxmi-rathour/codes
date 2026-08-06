@@ -75,5 +75,11 @@
 </body>
 
 </html>
+cd /home/laxmi/Documents/codes
 
+git status
+git add "javascript.js/security,html"
+git commit -m "Password Generator"
+git push -u origin main
     
+git branch --show-currentgit branch --show-current
