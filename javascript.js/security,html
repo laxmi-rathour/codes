@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Strong Password Generator</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#1e1e2f;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+    width:400px;
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    font-size:18px;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+button{
+    padding:12px 20px;
+    font-size:16px;
+    border:none;
+    background:#007bff;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056b3;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+    <h2>Strong Password Generator</h2>
+
+    <input type="text" id="password" readonly>
+
+    <button onclick="generatePassword()">
+        Generate Password
+    </button>
+</div>
+
+<script>
+
+function generatePassword(){
+
+let upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let lower = "abcdefghijklmnopqrstuvwxyz";
+let number = "0123456789";
+let symbol = "@#$%&*!?";
+let all = upper + lower + number + symbol;
+
+let password = "";
+
+password += upper[Math.floor(Math.random()*upper.length)];
+password += lower[Math.floor(Math.random()*lower.length)];
+password += number[Math.floor(Math.random()*number.length)];
+password += symbol[Math.floor(Math.random()*symbol.length)];
+
+for(let i=4;i<12;i++){
+password += all[Math.floor(Math.random()*all.length)];
+}
+
+password = password.split("").sort(()=>Math.random()-0.5).join("");
+
+document.getElementById("password").value = password;
+
+}
+
+</script>
+
+</body>
+</html>
