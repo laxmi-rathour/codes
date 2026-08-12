@@ -1,1 +1,17 @@
-skdoji
+\]}|
+- *::before, *after{
+       box-sizing: border-box;
+}
+body{
+       margin: 0;
+       display: flex;
+       align-content: center;
+       min-width: 100vh;
+       background: #1a1a2e;
+}
+
+camvas{
+       display:block;
+       image-rendering: pixelated;
+       image-rendering: crisp-edges;
+}
